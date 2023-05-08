@@ -8,5 +8,6 @@ int main(){
     } while (n<=0);
     printf("bien n vua nhap la: %d", n);
     printf ("\t oki la!");
+    printf("\n baibai!");
     return 0;
 }
