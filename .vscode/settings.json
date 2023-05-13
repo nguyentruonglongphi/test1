@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "atomic": "c",
+        "cstdint": "c",
+        "stdint.h": "c",
+        "stdlib.h": "c"
+    }
+}
