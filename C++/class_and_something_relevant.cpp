@@ -17,5 +17,6 @@ public:
 int main(){
     Son son;
     son.say_the_name();
+    std::cout<<"everything is ok !";
     return 0;
 }
