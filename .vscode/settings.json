@@ -3,6 +3,9 @@
         "atomic": "c",
         "cstdint": "c",
         "stdint.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "string.h": "c",
+        "time.h": "c",
+        "bitmask.h": "c"
     }
 }
