@@ -18,5 +18,6 @@ int main(){
     Son son;
     son.say_the_name();
     std::cout<<"everything is ok !";
+    std::cout<<"everything is ok 2! ";
     return 0;
 }
