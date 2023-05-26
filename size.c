@@ -1,22 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
+int make_number(){
+    static int a = 1000;
+    return a++;
+}
+extern void Nhap(int[], int);
+extern void Xuat(int[], int);
 typedef struct{
-    int a;
-    char c;
-    int n;
-}my_truct; 
-typedef union{
-    int a;
-    char c;
-    int n;
-}my_union; 
-
+    unsigned int ngay : 5;
+    unsigned int thang : 4;
+    unsigned int nam : 12;
+}time; 
 
 int main(){
-    my_truct mystruct;
-    mystruct.c = 10; 
-    printf("---struct---\n");
-    // printf("bien a: %d\n", mystruct.a);
-    printf("bien n: %d\n", mystruct.n);
-    return 0;
+    printf("Thi sinh a co so bao danh la : %d\n", make_number());
+    printf("Thi sinh c co so bao danh la : %d\n", make_number());
+    printf("Thi sinh b co so bao danh la : %d\n", make_number());
+    printf("Thi sinh c co so bao danh la : %d\n", make_number());
+    printf("Thi sinh a co so bao danh la : %d\n", make_number());
+    printf("Thi sinh c co so bao danh la : %d\n", make_number());
+    printf("Thi sinh b co so bao danh la : %d\n", make_number());
+    printf("Thi sinh c co so bao danh la : %d\n", make_number());
 }

@@ -13,14 +13,14 @@ void Xuat(int a[], int n){
         printf("\na[%d] = %d", i, a[i]);
     }    
 }
-int main(){
-    int a[100], n;
-    do
-    {
-        printf("Vui long nhap n > 0: ");
-        scanf("%d", &n);
-    } while (n<=0);
-    Nhap(a,n);
-    Xuat(a,n);
-    return 0;
-}
+// int main(){
+//     int a[100], n;
+//     do
+//     {
+//         printf("Vui long nhap n > 0: ");
+//         scanf("%d", &n);
+//     } while (n<=0);
+//     Nhap(a,n);
+//     Xuat(a,n);
+//     return 0;
+// }
